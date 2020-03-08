@@ -1,13 +1,13 @@
 {
-	"name": "sindresorhus",
-	"version": "2.1.0",
-	"description": "The Sindre Sorhus CLI",
+	"name": "allabrevec",
+	"version": "0.1.0",
+	"description": "Allabrevecの名刺",
 	"license": "MIT",
-	"repository": "sindresorhus/sindresorhus",
+	"repository": "allabrevec/allabrevec",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"name": "Allabrevec Project",
+		"email": "allabrece@gmail.com",
+		"url": "allabrevec.tokyo"
 	},
 	"bin": {
 		"sindresorhus": "source/cli.js"
@@ -22,10 +22,9 @@
 		"source"
 	],
 	"keywords": [
-		"cli-app",
-		"cli",
-		"sindresorhus",
-		"unicorns"
+		"allabrevec",
+		"Meishi",
+		"Name Card"
 	],
 	"dependencies": {
 		"import-jsx": "^2.0.0",

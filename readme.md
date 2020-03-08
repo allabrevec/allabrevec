@@ -1,18 +1,14 @@
-# sindresorhus [![Build Status](https://travis-ci.org/sindresorhus/sindresorhus.svg?branch=master)](https://travis-ci.org/sindresorhus/sindresorhus)
+# Allabrevec [![Build Status](https://travis-ci.org/allabrevec/allabrevec.svg?branch=master)](https://travis-ci.org/allabrevec/allabrevec)
 
-> The [Sindre Sorhus](https://sindresorhus.com) CLI
-
-<img src="screenshot.png" width="752">
-
+- This is my meishi
 
 ## Usage
 
 Install Node.js, then:
 
 ```
-$ npx sindresorhus
+$ npx allabrevec
 ```
-
 
 ## Built with
 
@@ -22,4 +18,5 @@ $ npx sindresorhus
 
 ## License
 
+Thanks! sindresorhus@
 MIT © [Sindre Sorhus](https://sindresorhus.com)

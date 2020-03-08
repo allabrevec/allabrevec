@@ -27,41 +27,30 @@ const createItems = items => {
 const items = createItems([
 	{
 		label: 'Website',
-		url: 'https://sindresorhus.com'
+		url: 'https://allabrevec.tokyo'
 	},
 	{
 		label: 'Twitter',
-		url: 'https://twitter.com/sindresorhus'
+		url: 'https://twitter.com/allabrevec'
 	},
 	{
 		label: 'GitHub',
-		url: 'https://github.com/sindresorhus'
+		url: 'https://github.com/allabrevec'
 	},
 	{
 		label: 'Blog',
-		url: 'https://blog.sindresorhus.com'
+		url: 'https://allabrevec.hatenablog.com/'
 	},
 	{
 		label: 'Ask Me Anything',
 		url: 'https://github.com/sindresorhus/ama'
 	},
 	{
-		label: 'Contact',
-		url: 'https://sindresorhus.com/contact'
-	},
-	{
-		label: 'Support my open source work',
-		url: 'https://www.patreon.com/sindresorhus'
-	},
-	{
-		label: 'Unicorns!',
+		label: 'うひょっともふもふびーむ！(Uhyotto Mofu Mofu Beam)',
 		async action() {
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn1.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn2.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn3.gif')));
+			console.log(await terminalImage.file(path.join(__dirname, 'lily.png')));
 		}
 	},
-	// TODO: Add separator item here when https://github.com/vadimdemedes/ink-select-input/issues/4 is done
 	{
 		label: '---------'
 	},
@@ -76,7 +65,7 @@ const items = createItems([
 module.exports = () => (
 	<Box flexDirection="column">
 		<Box marginBottom={1}>
-			<Text>I’m a full-time open-sourcerer making things like macOS apps, CLI tools, and modules.</Text>
+			<Text>私たちは3人で掛け替えのないワルツを踊る。by Yuri, Chojuku, Ms.Izumi</Text>
 		</Box>
 		<SelectInput items={items} onSelect={handleSelect}/>
 	</Box>
