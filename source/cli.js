@@ -16,10 +16,10 @@ meow(`
 `);
 
 const fallback = async () => {
-	const image = await terminalImage.file(path.join(__dirname, '../image/lily_small.png'));
+	const image = await terminalImage.file(path.join(__dirname, 'lily_small.png'));
 	console.log(image);
 };
 
-termImg(path.join(__dirname, '../image/lily.png'), {fallback});
+termImg(path.join(__dirname, 'lily.png'), {fallback});
 
 render(React.createElement(ui));

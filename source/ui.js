@@ -44,7 +44,7 @@ const items = createItems([
 	{
 		label: '(=ﾟωﾟ)ﾉ',
 		async action() {
-			console.log(await terminalImage.file(path.join(__dirname, '../image/rainbow.png')));
+			console.log(await terminalImage.file(path.join(__dirname, 'rainbow.png')));
 		}
 	},
 	{
