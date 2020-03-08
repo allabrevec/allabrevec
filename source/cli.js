@@ -12,14 +12,14 @@ const ui = importJsx('./ui');
 
 meow(`
 	Usage
-	  $ sindresorhus
+	  $ allabrevec
 `);
 
 const fallback = async () => {
-	const image = await terminalImage.file(path.join(__dirname, 'lily.png'));
+	const image = await terminalImage.file(path.join(__dirname, '../image/lily_small.png'));
 	console.log(image);
 };
 
-termImg(path.join(__dirname, 'lily.png'), {fallback});
+termImg(path.join(__dirname, '../image/lily.png'), {fallback});
 
 render(React.createElement(ui));

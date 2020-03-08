@@ -10,7 +10,7 @@
 		"url": "allabrevec.tokyo"
 	},
 	"bin": {
-		"sindresorhus": "source/cli.js"
+		"allabrevec": "source/cli.js"
 	},
 	"engines": {
 		"node": ">=8"

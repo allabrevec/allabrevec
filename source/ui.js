@@ -26,8 +26,8 @@ const createItems = items => {
 
 const items = createItems([
 	{
-		label: 'Website',
-		url: 'https://allabrevec.tokyo'
+		label: 'WebSite',
+		url: 'http://allabrevec.tokyo'
 	},
 	{
 		label: 'Twitter',
@@ -42,13 +42,9 @@ const items = createItems([
 		url: 'https://allabrevec.hatenablog.com/'
 	},
 	{
-		label: 'Ask Me Anything',
-		url: 'https://github.com/sindresorhus/ama'
-	},
-	{
-		label: 'うひょっともふもふびーむ！(Uhyotto Mofu Mofu Beam)',
+		label: '(=ﾟωﾟ)ﾉ',
 		async action() {
-			console.log(await terminalImage.file(path.join(__dirname, 'lily.png')));
+			console.log(await terminalImage.file(path.join(__dirname, '../image/rainbow.png')));
 		}
 	},
 	{
@@ -64,8 +60,11 @@ const items = createItems([
 
 module.exports = () => (
 	<Box flexDirection="column">
+		<Box marginTop={1} marginBottom={1}>
+			<Text>私たちは3人で掛け替えのないワルツを踊る。</Text>
+		</Box>
 		<Box marginBottom={1}>
-			<Text>私たちは3人で掛け替えのないワルツを踊る。by Yuri, Chojuku, Ms.Izumi</Text>
+			<Text>by Yuri, Chojuku, Ms.Izumi</Text>
 		</Box>
 		<SelectInput items={items} onSelect={handleSelect}/>
 	</Box>
